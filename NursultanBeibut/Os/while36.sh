@@ -1,4 +1,4 @@
-while read p; do
-  echo "$p"
-done <pof.txt 
-mkdir p
+#!/bin/bash
+while IFS= read LINE || [[ -n "$LINE" ]]
+    do  mkdir $LINE
+done < E:/dir.tx
