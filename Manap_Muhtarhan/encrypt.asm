@@ -1,6 +1,3 @@
-; Encryption Program                   
-
-;ml64 /c MyLib-64.asm
 ;ml64 /c Encrypt.asm
 ;link /subsystem:console Encrypt.obj kernel32.Lib MyLib-64.obj /ENTRY:main /largeaddressaware:no
 
@@ -69,4 +66,4 @@ L1:
 	ret 
 TranslateBuffer ENDP
 
-END 
+END
