@@ -1,5 +1,0 @@
-First Item
-Second
-Third item
-Fourth
-Last item
