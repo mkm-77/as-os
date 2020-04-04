@@ -1,0 +1,7 @@
+#!/bin/bash
+strVar="first\n second \n third \n fourth \n fifth"
+myVar=""
+echo -e $strVar | while read line; do
+    myVar=$myVar$line
+    echo $line" item"
+done
