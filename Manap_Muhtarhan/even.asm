@@ -1,5 +1,5 @@
-;ml64 /c even.asm
-;link /subsystem:console even.obj kernel32.Lib MyLib-64.obj /ENTRY:main /largeaddressaware:no
+;ml64 /c Even.asm
+;link /subsystem:console Even.obj kernel32.Lib MyLib-64.obj /ENTRY:main /largeaddressaware:no
 
 ExitProcess 	proto
 WriteInt64		proto
@@ -8,7 +8,7 @@ Crlf 			proto
 
 
 .data
-intArray  QWORD  9,6,5,2,4,7,10,21,36
+intArray  QWORD  5,6,-8,7,-2,0,9,14
 Message BYTE "A even value was not found",0
  
 .code 
