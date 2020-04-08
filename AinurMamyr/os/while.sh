@@ -1,0 +1,4 @@
+while read p; do
+  echo "$p"
+done <pof.txt
+mkdir p
