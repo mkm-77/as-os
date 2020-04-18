@@ -1,4 +1,7 @@
-;ml64 /c new.asm /link /subsystem:console new.obj MyLib-64.obj /ENTRY:main /largeaddressaware:no
+;ml64 /c new.asm
+;link /subsystem:console new.obj kernel32.Lib /ENTRY:main /largeaddressaware:no
+
+;ml64 new.asm /link /subsystem:console new.obj /ENTRY:main /largeaddressaware:no
 
 ; Sample x64 Assembly Program
 ; Chris Lomont 2009 www.lomont.org
@@ -14,9 +17,9 @@ extrn MessageBoxA: PROC
 caption db '64-bit hello!', 0
 message db 'Hello World!', 0
 .code
-Start PROC
-  nvk MessageBoxA, 0, message, caption, 0
-  mov    ecx, eax     ; uExitCode = MessageBox(...)
+main PROC
+  nvk MessageBoxA, 0,ADDR message, ADDR caption, 0
+  mov    rcx, rax     ; uExitCode = MessageBox(...)
   call ExitProcess
-Start ENDP
+main ENDP
 End
