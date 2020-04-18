@@ -1,5 +1,8 @@
-;ml64 /c Mult.asm
-;link /subsystem:console Mult.obj kernel32.Lib MyLib-64.obj /ENTRY:main /largeaddressaware:no
+ml64  mult.asm /link /subsystem:console mult.obj MyLib-64.obj /ENTRY:main /largeaddressaware:no
+
+includelib lib\kernel32.lib
+includelib lib\user32.lib
+
 
 
 Crlf        proto 
