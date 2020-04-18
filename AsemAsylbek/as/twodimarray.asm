@@ -1,7 +1,13 @@
+;ml64 /c twodimarray.asm /link /subsystem:console twodimarray.obj MyLib-64.obj /ENTRY:main /largeaddressaware:no
+
 ;ml64 /c twodimarray.asm
 ;link /subsystem:console twodimarray.obj kernel32.Lib MyLib-64.obj /ENTRY:main /largeaddressaware:no
 
 ; Two-dimensional arrays in 64-bit mode (twodimarray.asm)
+
+includelib lib\kernel32.lib
+includelib lib\user32.lib
+
 
 Crlf proto 
 WriteInt64 proto 
