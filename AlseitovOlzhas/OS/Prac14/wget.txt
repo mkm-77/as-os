@@ -16,4 +16,3 @@ Saving to: `NumberEven.asm'
 2020-04-21 15:49:41 (1.10 MB/s) - `NumberEven.asm' saved [886/886]
 
 
-raw ссылка файл ашқанда оң жақта raw батырмасында алынады
