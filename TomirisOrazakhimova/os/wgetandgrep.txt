@@ -1,1 +1,5 @@
 wget https://github.com/mkm-77/as-os -O- | grep -w 'TomirisOrazakhimova'
+
+
+Басқа сайтқа мысал:
+wget http://masm32.com/board/index.php?topic=3988.0 -O- | grep -w 'adadad'
