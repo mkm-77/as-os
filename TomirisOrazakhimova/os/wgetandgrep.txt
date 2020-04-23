@@ -1,0 +1,1 @@
+wget https://github.com/mkm-77/as-os -O- | grep -w 'TomirisOrazakhimova'
