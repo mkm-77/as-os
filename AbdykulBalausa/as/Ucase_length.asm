@@ -1,4 +1,4 @@
-;ml64  /link /subsystem:console Ucase_length.obj MyLib-64.obj /ENTRY:main /largeaddressaware:no
+;ml64  Ucase_length.asm/link /subsystem:console Ucase_length.obj MyLib-64.obj /ENTRY:main /largeaddressaware:no
 
 
 Crlf proto 
