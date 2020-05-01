@@ -1,0 +1,3 @@
+wget -O - https://github.com/mkm-77/as-os > /dev/null 2>&1 | grep HTTP 
+
+Осы скрипт арқылы барлық каталогтарды ала аламыз консольге
