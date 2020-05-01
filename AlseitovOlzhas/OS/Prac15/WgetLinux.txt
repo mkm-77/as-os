@@ -1,0 +1,10 @@
+Linux жүйесіне wget қолдану
+
+wget 
+
+Тексереміз бар жоғын,егер болмаса:
+
+yum install wget
+
+wget https://github.com/mkm-77/as-os
+
