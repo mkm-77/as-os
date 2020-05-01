@@ -1,0 +1,7 @@
+wget -O https://github.com/mkm-77/as-os > /dev/null 2>&1 | grep http
+Осы синтаксис арқылы каталог тізімін ала аламыз
+
+
+
+
+
