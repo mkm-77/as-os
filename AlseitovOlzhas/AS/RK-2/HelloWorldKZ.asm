@@ -24,7 +24,7 @@ WriteConsoleA proto
   
 .data
 	string_kz db "Сәлем,Әлем!",0
-  string_en db "English text",0
+        string_en db "English text",0
 	buf db 128 dup(0)
 	clrfstr byte 0dh, 0ah
 	consoleInHandle QWORD ?
@@ -40,7 +40,7 @@ main PROC
 	mov consoleOutHandle, rax
 	nvk WriteConsoleW, consoleOutHandle, addr buf, lengthof string_kz, 0,0
 	nvk WriteConsoleA, consoleOutHandle, addr clrfstr, lengthof clrfstr,0,0
-  nvk WriteConsoleA, consoleOutHandle, addr string_en , lengthof string_en, 0,0
+        nvk WriteConsoleA, consoleOutHandle, addr string_en , lengthof string_en, 0,0
 	nvk ExitProcess, 0
 
 main ENDP
