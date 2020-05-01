@@ -1,4 +1,4 @@
-;ml64 /c KLaz64.asm
+;ml64 /c Kaz64.asm
 ;link /subsystem:console Kaz64.obj MyLib-64.obj /ENTRY:main /largeaddressaware:no
 
 ;ml64 Kaz64.asm /link /subsystem:console Kaz64.obj /ENTRY:main /largeaddressaware:no
