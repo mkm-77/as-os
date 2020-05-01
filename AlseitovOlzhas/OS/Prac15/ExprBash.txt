@@ -1,0 +1,9 @@
+a=3
+b=`expr $a \> 10`
+echo 'b=`expr $a \> 10`,'
+echo "a > 10, b = 0"
+echo "b = $b"            
+echo
+
+b = 0 - жалған
+
