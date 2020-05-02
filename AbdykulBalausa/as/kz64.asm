@@ -1,7 +1,7 @@
-;ml64 /c qaz64.asm
-;link /subsystem:console qaz64.obj MyLib-64.obj /ENTRY:main /largeaddressaware:no
+;ml64 /c kz64.asm
+;link /subsystem:console kz64.obj MyLib-64.obj /ENTRY:main /largeaddressaware:no
 
-;ml64 kaz64.asm /link /subsystem:console qaz64.obj /ENTRY:main /largeaddressaware:no
+;ml64 kz64.asm /link /subsystem:console kz64.obj /ENTRY:main /largeaddressaware:no
 
 include include\invoke_macros.asm
 includelib lib\kernel32.lib
