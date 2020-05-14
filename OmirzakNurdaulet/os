@@ -1,1 +1,3 @@
+echo "this text will be added at the end off file info.txt" >> ~/Documents/info.txt
 
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
