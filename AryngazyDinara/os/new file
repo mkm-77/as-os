@@ -1,0 +1,12 @@
+Командалық жолда жаңа файл құру
+1.NUL> filename.txt
+                          
+2.copy con filename.txt
+
+bash-та жаңа файл құру 
+3.sudo touch file.txt
+  sudo echo "ttt">file.txt
+  exit 0
+
+echo арқылы жаңа файл құру 
+4. echo"text">filename.txt
