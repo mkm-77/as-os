@@ -7,7 +7,7 @@ Crlf 			proto
 
 .code
 main proc
-  mov eax,-25
+  mov rax,-25
   mov bl,5
   div bl
   call WriteInt64
