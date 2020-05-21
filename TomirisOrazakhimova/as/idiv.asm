@@ -9,7 +9,7 @@ Crlf 			proto
 main proc
   mov rax,-25
   mov bl,5
-  div bl
+  idiv bl
   call WriteInt64
   call Crlf
   call ExitProcess
