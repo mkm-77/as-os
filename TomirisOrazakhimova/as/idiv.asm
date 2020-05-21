@@ -4,7 +4,6 @@
 ExitProcess 	proto
 WriteInt64		proto
 Crlf 			proto
-ReadInt64       proto
 
 .code
 main proc
@@ -12,7 +11,6 @@ main proc
   mov bl,5
   div bl
   call WriteInt64
-  call ReadInt64
   call Crlf
   call ExitProcess
 main ENDP
